@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${1:Model} extends ActiveRecord
+{
+	public function setup()
+	{
+		$0
+	}
+}</string>
+	<key>name</key>
+	<string>create new model</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>armodel</string>
+	<key>uuid</key>
+	<string>54AD781B-AB1A-4E90-B171-A683BF6E0D59</string>
+</dict>
+</plist>
