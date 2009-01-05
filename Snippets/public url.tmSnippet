@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>public url</string>
+        <key>uuid</key>
+        <string>09D9603A-67E3-4252-8E80-7D6F819A5049</string>
+        <key>tabTrigger</key>
+        <string>purl</string>
+        <key>content</key>
+        <string>&lt;?= \$this-&gt;public_url(${1:"${2:url}"}) ?&gt;$0</string>
+        <key>scope</key>
+        <string>text.html</string>
+    </dict>
+</plist>
