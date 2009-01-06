@@ -2,16 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
     <dict>
-        <key>content</key>
-        <string>\$this-&gt;validates_presence_of("${1:field}"${2:, "${3:error message}"});
-$0</string>
         <key>name</key>
-        <string>validates presence of</string>
+        <string>validates confirmation of</string>
+        <key>uuid</key>
+        <string>D1D28ED2-BF0A-41B6-BCE7-1366EAB7CAB3</string>
+        <key>content</key>
+        <string>\$this-&gt;validates_confirmation_of("${1:field}", "${2:field}"${3:, "${4:error message}"});
+$0</string>
         <key>scope</key>
         <string>source.php</string>
         <key>tabTrigger</key>
-        <string>vp</string>
-        <key>uuid</key>
-        <string>CD0E9CD4-83FF-4CA3-8894-634CDAD37F8D</string>
+        <string>vc</string>
     </dict>
 </plist>

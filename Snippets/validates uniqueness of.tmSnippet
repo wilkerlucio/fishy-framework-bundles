@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>validates uniqueness of</string>
+        <key>uuid</key>
+        <string>EA958385-EB69-4131-BD75-8A1C4210E50B</string>
+        <key>tabTrigger</key>
+        <string>vu</string>
+        <key>content</key>
+        <string>\$this-&gt;validates_uniqueness_of("${1:field}"${2:, "${3:error message}"});
+$0</string>
+        <key>scope</key>
+        <string>source.php</string>
+    </dict>
+</plist>
