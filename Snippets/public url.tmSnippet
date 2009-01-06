@@ -7,7 +7,7 @@
         <key>uuid</key>
         <string>09D9603A-67E3-4252-8E80-7D6F819A5049</string>
         <key>tabTrigger</key>
-        <string>purl</string>
+        <string>pu</string>
         <key>content</key>
         <string>&lt;?= \$this-&gt;public_url(${1:"${2:url}"}) ?&gt;$0</string>
         <key>scope</key>
