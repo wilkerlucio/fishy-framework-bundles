@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>active record condition</string>
+        <key>uuid</key>
+        <string>29850433-23BF-40A5-8C3C-69B2BE57E54C</string>
+        <key>tabTrigger</key>
+        <string>armc</string>
+        <key>content</key>
+        <string>"conditions" =&gt; array("${1:conditions}"${2:, $3})</string>
+        <key>scope</key>
+        <string>source.php</string>
+    </dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>armq. order</string>
+        <key>uuid</key>
+        <string>DAF4F0B7-9649-4846-91F7-14DF9959199A</string>
+        <key>content</key>
+        <string>"order" =&gt; "${1:field} ${2:a}${2/(a)|(d)/(?1:sc)(?2:esc)/}"${3:, }</string>
+        <key>scope</key>
+        <string>source.php</string>
+        <key>tabTrigger</key>
+        <string>armq</string>
+    </dict>
+</plist>

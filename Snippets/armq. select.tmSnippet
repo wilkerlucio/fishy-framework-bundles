@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>armq. select</string>
+        <key>uuid</key>
+        <string>4158005B-31DB-45EF-BBE5-000F93C01ECC</string>
+        <key>content</key>
+        <string>"select" =&gt; ${1:"${2:select}"}${3:, }</string>
+        <key>scope</key>
+        <string>source.php</string>
+        <key>tabTrigger</key>
+        <string>armq</string>
+    </dict>
+</plist>

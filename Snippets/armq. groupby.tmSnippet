@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>armq. groupby</string>
+        <key>uuid</key>
+        <string>3F8EC393-D16C-4697-9472-136F65EA88C4</string>
+        <key>content</key>
+        <string>"groupby" =&gt; ${1:"${2:groupby}"}${3:, }</string>
+        <key>scope</key>
+        <string>source.php</string>
+        <key>tabTrigger</key>
+        <string>armq</string>
+    </dict>
+</plist>

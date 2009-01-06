@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>armq. conditions</string>
+        <key>uuid</key>
+        <string>C48C1FA3-D000-4566-8A64-AA7754CABF8F</string>
+        <key>content</key>
+        <string>"conditions" =&gt; array("${1:conditions}"${2:, $3})${4:, }$0</string>
+        <key>scope</key>
+        <string>source.php</string>
+        <key>tabTrigger</key>
+        <string>armq</string>
+    </dict>
+</plist>
