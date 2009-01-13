@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>url to controller action</string>
+        <key>uuid</key>
+        <string>B0C6EBC3-9FBD-4567-A465-3DB340F7C0F6</string>
+        <key>content</key>
+        <string>&lt;?= \$this-&gt;url_to(array("controller" =&gt; ${1:"$2"}, "action" =&gt; ${3:"$4"})) ?&gt;$0</string>
+        <key>scope</key>
+        <string>text.html</string>
+        <key>tabTrigger</key>
+        <string>utca</string>
+    </dict>
+</plist>
