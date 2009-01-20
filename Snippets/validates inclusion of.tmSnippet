@@ -7,7 +7,7 @@
         <key>uuid</key>
         <string>0997F4C3-9D07-4E82-AF4C-9415E9D30DCA</string>
         <key>content</key>
-        <string>\$this-&gt;validates_inclusion_of(${1:array($2)}${3:, "${4:error message}"});
+        <string>\$this-&gt;validates_inclusion_of("${1:field}", ${2:array($3)}${4:, "${5:error message}"});
 $0</string>
         <key>scope</key>
         <string>source.php</string>
