@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>render collection</string>
+        <key>uuid</key>
+        <string>50B2B093-4D6F-463E-BBF5-EB8DD6ACB7A4</string>
+        <key>tabTrigger</key>
+        <string>rc</string>
+        <key>content</key>
+        <string>&lt;?php \$this-&gt;render_collection("${1:partial}", ${2:collection}${3:, array("controller" =&gt; "$4")}) ?&gt;</string>
+        <key>scope</key>
+        <string>text.html</string>
+    </dict>
+</plist>
