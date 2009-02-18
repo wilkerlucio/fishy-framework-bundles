@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>form helper (html)</string>
+        <key>uuid</key>
+        <string>34A47BA8-5F5B-4E3F-9F8D-1BADF2809AF8</string>
+        <key>tabTrigger</key>
+        <string>fh</string>
+        <key>content</key>
+        <string>&lt;?= Fishy_FormHelper::$1 ?&gt;</string>
+        <key>scope</key>
+        <string>text.html</string>
+    </dict>
+</plist>

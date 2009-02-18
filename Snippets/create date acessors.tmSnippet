@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>create date acessors</string>
+        <key>uuid</key>
+        <string>3F664680-78DF-40B4-B155-58EEAD764D5B</string>
+        <key>content</key>
+        <string>#acessors for ${1:field}
+public function get_$1_day()
+{
+	if (\$this-&gt;$1) {
+		\$parts = explode("-", \$this-&gt;$1);
+		return \$parts[2];
+	} else {
+		return '00';
+	}
+}
+
+public function get_$1_month()
+{
+	if (\$this-&gt;$1) {
+		\$parts = explode("-", \$this-&gt;$1);
+		return \$parts[1];
+	} else {
+		return '00';
+	}
+}
+
+public function get_$1_year()
+{
+	if (\$this-&gt;$1) {
+		\$parts = explode("-", \$this-&gt;$1);
+		return \$parts[0];
+	} else {
+		return '0000';
+	}
+}
+
+public function set_$1_day(\$day)
+{
+	\$day = Fishy_StringHelper::zero_fill(\$day, 2);
+	
+	\$this-&gt;$1 = "{\$this-&gt;$1_year}-{\$this-&gt;$1_month}-{\$day}";
+}
+
+public function set_$1_month(\$month)
+{
+	\$month = Fishy_StringHelper::zero_fill(\$month, 2);
+	
+	\$this-&gt;$1 = "{\$this-&gt;$1_year}-{\$month}-{\$this-&gt;$1_day}";
+}
+
+public function set_$1_year(\$year)
+{
+	\$year = Fishy_StringHelper::zero_fill(\$year, 4);
+	
+	\$this-&gt;$1 = "{\$year}-{\$this-&gt;$1_month}-{\$this-&gt;$1_day}";
+}</string>
+        <key>scope</key>
+        <string>source.php</string>
+        <key>tabTrigger</key>
+        <string>create_date_acessors</string>
+    </dict>
+</plist>
