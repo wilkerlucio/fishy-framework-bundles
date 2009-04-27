@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>public url for selection</string>
+        <key>uuid</key>
+        <string>37084D2A-09A8-4409-B9C8-1CAF4718EEE6</string>
+        <key>input</key>
+        <string>selection</string>
+        <key>output</key>
+        <string>replaceSelectedText</string>
+        <key>command</key>
+        <string>#!/usr/bin/env ruby
+
+path = STDIN.read
+
+path = path[3..-1] if path =~ /^..\//
+
+print "&lt;?= \$this-&gt;public_url(\"#{path}\") ?&gt;"</string>
+        <key>keyEquivalent</key>
+        <string>@P</string>
+        <key>fallbackInput</key>
+        <string>none</string>
+        <key>scope</key>
+        <string>text.html</string>
+    </dict>
+</plist>
