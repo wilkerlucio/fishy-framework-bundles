@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;show_message_and_redirect_to("${1:message}", ${2:path})</string>
+	<key>name</key>
+	<string>show message and redirect</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>smr</string>
+	<key>uuid</key>
+	<string>184A7ECE-3F04-47D3-B1FD-D1A680BF4C6B</string>
+</dict>
+</plist>
