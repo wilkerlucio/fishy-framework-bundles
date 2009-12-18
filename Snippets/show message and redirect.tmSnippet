@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;show_message_and_redirect_to("${1:message}", ${2:path})</string>
+	<string>\$this-&gt;show_message_and_redirect_to("${1:message}", ${2:\$_SERVER['HTTP_REFERER']})</string>
 	<key>name</key>
 	<string>show message and redirect</string>
 	<key>scope</key>
